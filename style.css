@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #F8FAFC;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+header h3 {
+    max-width: 400px;
+    text-align: center;
+    line-height: 2;
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 100vw;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 50px auto;
+    max-width: 722px;
+}
+
+.card .image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 155px;
+    border-radius: 20px;
+}
+
+.card .box {
+    margin-left: 50px;
+    line-height: 1.1;
+    text-align: start;
+    max-width: 503px;
+}
+
+.card .box h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.card .box span {
+    font-size: 15px;
+    color: #4D5562;
+}
+
+.image1 {
+    background-image: url('./files/resources/photo_1.png');
+}
+
+.image2 {
+    background-image: url('./files/resources/photo_3.png');
+}
+
+.image3 {
+    background-image: url('./files/resources/photo_2.png');
+}
