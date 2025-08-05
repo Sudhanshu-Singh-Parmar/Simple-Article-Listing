@@ -46,8 +46,8 @@ header h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 155px;
-    height: 155px;
+    min-width: 155px;
+    min-height: 155px;
     border-radius: 20px;
 }
 
